@@ -7,7 +7,7 @@ The objective of the assignment is to create a C89 compiled program that turns r
 ## Assumptions
 #### _The format of the input can be assumed valid if_:
 
-Raw input data consists of two lines per entry; the first line the TV show name (may contain spacing), and the second line contains the day of the week and time of day (24 hr time).
+Raw input data consists of two lines per entry; the first line contains the TV show name (may contain spacing), and the second line contains the day of the week and time of day (24 hr time).
 
 Example input:
 
