@@ -27,11 +27,11 @@ Example output (for Wednesday):
 ## Functionality
 The specifications require the program to work as follows:
 1) The program should accept 2 command line arguments: input and output filenames
-2) The program should read 2 strings from the user: day of the week, and sorting type (time/name)
+2) The program should read 2 strings from the user: day of the week, and sorting type (time/name).
 This step should validate input and re-prompt until input is valid.
 3) The program should read from the input file, place each TV entry into a suitable structure and then store it in a generic linked list.
 4) Once the input file has been read, the program should copy the linked list contents into a dynamically allocated array.
-5) The program should sort the arrray by time or name, according to the user's input (step 2). Standard C qsort() function is to be used.
+5) The program should sort the array by time or name, according to the user's input (step 2). Standard C qsort() function is to be used.
 6) The program should filter the array to a day of the week, according to the user's input (step 2).
 7) The program should display the sorted and filtered TV guide to the screen, and save a copy to the output file initially specified.
 
